@@ -1,0 +1,121 @@
+.home-container{
+    background-color:firebrick;
+    
+    background-size: cover;
+    padding:22px;
+    height:100vh;
+    text-align: center;
+    margin:auto;
+}
+
+.home-container-chart{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.monthly,.weekly,.yearly,.daily{
+    background-color: #352E34;
+    width:130px;
+    height:44px;
+    color:aliceblue;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size:18px;
+    font-weight: 600;
+    margin-inline:9px;
+}
+
+.buttons{
+    margin-bottom:22px;
+}
+
+.smaller-screens{
+    display: none;
+}
+.flexing-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 55vh;
+    width: 100%;
+}
+.zoom-in,.zoom-out,.reset{
+    background-color: rgb(1, 2, 1);
+   
+    width:130px;
+    height:44px;
+    color:aliceblue;
+  
+    border-radius: 12px;
+    cursor: pointer;
+    font-size:18px;
+    font-weight: 600;
+    margin-inline:9px;
+   
+  text-align: center;
+}
+.chart-library{
+    color:cyan;
+   
+}
+.time-period{
+    color:#E9ECEE;
+}
+.bar-chart-heading{
+   
+    color:#002626;
+}
+.pie-chart-heading{
+    color:#002626;
+}
+
+
+
+
+
+@media screen and (max-width:767px){
+    .home-container{
+        width:100vw;
+        box-sizing: border-box;
+        height:220vh;
+       
+    }
+    .bigger-screens{
+        display: none;
+    }
+    .smaller-screens{
+        display: block;
+    }
+    .flexing-container{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .zoom-in,.zoom-out,.reset{
+        margin-bottom: 12px;
+        width:120px;
+        font-size: 14px;
+        height: 33px;
+    }
+    .monthly,.weekly,.yearly,.daily{
+        width:120px;
+        height:33px;
+        font-size:14px;
+        margin-bottom: 12px;
+    }
+    .time-period{
+        font-size: 14px;
+    }
+    .bar-chart-heading{
+        margin-top:77px;
+        color:blanchedalmond;
+    }
+    .pie-chart-heading{
+        margin-top:22px;
+        color:blanchedalmond;
+    }
+}

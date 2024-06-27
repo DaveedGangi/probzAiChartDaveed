@@ -1,3 +1,129 @@
+
+
+# IMPORTANT NOTE FROM USER 
+
+I have developed a charting library by using react 
+
+I have used a Recharts library for charting 
+
+I implemented a Zoom in And Zoom out by using react-zoom-pan-pinch library
+
+I have used a pie chart , bar chart's to display data
+
+I developed a responsive for website by using css media queries 
+
+I have used a react-router-dom for routing
+
+Based on monthly, daily, weekly, yealry data will be displaed in charting 
+
+
+#  Run in your machine 
+
+you nedd use this commands in terminal 
+git clone (github url) 
+
+cd chart 
+npm start 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
